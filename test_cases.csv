@@ -1,0 +1,6 @@
+id,title,steps,expected_result,status
+TC-001,Valid Login,"Enter email and password, click login",User is redirected to dashboard,Pass
+TC-002,Invalid Password,"Enter wrong password, click login",,Fail
+TC-003,Empty Email Field,"Leave email empty, click login",Error message displayed,Pass
+TC-004,Forgot Password Link,"Click forgot password",,Not Run
+TC-005,Remember Me Checkbox,"Check remember me, login",Session persists after browser close,Pass
